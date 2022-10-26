@@ -6,6 +6,8 @@ import 'package:rows_and_column/page4.dart';
 import 'package:rows_and_column/page5.dart';
 import 'package:rows_and_column/page6.dart';
 import 'package:rows_and_column/page7.dart';
+import 'package:rows_and_column/page8.dart';
+import 'package:rows_and_column/page9.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,7 +24,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.red,
       ),
-      home: const Page7(),
+      home: const Page9(),
     );
   }
 }

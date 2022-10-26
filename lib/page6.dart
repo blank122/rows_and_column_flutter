@@ -32,6 +32,7 @@ class Page6 extends StatelessWidget {
                 ),
               ),
               Expanded(
+                flex: 2,
                 child: Image.asset(
                   'assets/images/photo_male_3.jpg',
                 ),

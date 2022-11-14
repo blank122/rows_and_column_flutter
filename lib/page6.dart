@@ -22,6 +22,7 @@ class Page6 extends StatelessWidget {
             // ignore: prefer_const_literals_to_create_immutables
             children: [
               Expanded(
+                flex: 2,
                 child: Image.asset(
                   'assets/images/photo_male_1.jpg',
                 ),
@@ -32,7 +33,6 @@ class Page6 extends StatelessWidget {
                 ),
               ),
               Expanded(
-                flex: 2,
                 child: Image.asset(
                   'assets/images/photo_male_3.jpg',
                 ),

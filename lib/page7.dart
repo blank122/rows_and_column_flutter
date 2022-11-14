@@ -17,7 +17,7 @@ class Page7 extends StatelessWidget {
           title: const Text('Page 7'),
         ),
         body: Center(
-          child: Column(
+          child: Row(
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
               Padding(

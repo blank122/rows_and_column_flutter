@@ -15,17 +15,10 @@ class Page5 extends StatelessWidget {
           title: const Text('Page 5'),
         ),
         body: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.start,
             // ignore: prefer_const_literals_to_create_immutables
             children: [
-              Expanded(
-                child: Image.asset(
-                  'assets/images/photo_male_1.jpg',
-                  width: 100,
-                  height: 100,
-                ), 
-              ),
               Image.asset(
                 'assets/images/photo_male_1.jpg',
                 width: 100,
@@ -38,11 +31,6 @@ class Page5 extends StatelessWidget {
               ),
               Image.asset(
                 'assets/images/photo_male_3.jpg',
-                width: 100,
-                height: 100,
-              ),
-              Image.asset(
-                'assets/images/photo_male_4.jpg',
                 width: 100,
                 height: 100,
               ),

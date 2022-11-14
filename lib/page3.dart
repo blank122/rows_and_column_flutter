@@ -15,8 +15,8 @@ class Page3 extends StatelessWidget {
           title: const Text('Page 3'),
         ),
         body: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.start,
             // ignore: prefer_const_literals_to_create_immutables
             children: const [
               Text('Text 1'),
